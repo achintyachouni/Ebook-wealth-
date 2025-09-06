@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AI Wealth Blueprint — Landing</title>
+  <meta name="description" content="AI Wealth Blueprint — 365-day roadmap eBook. Buy & get instant access." />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">AI</div>
+        <div class="brand-text">
+          <div class="brand-title">AI Wealth Blueprint</div>
+          <div class="brand-sub">365-day Roadmap • eBook + Templates</div>
+        </div>
+      </div>
+
+      <button id="menuBtn" class="menu-btn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="mainNav" class="nav">
+        <a href="#features">Features</a>
+        <a href="#samples">Samples</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner container">
+        <div class="kicker">LAUNCH OFFER — LIMITED</div>
+        <h1 class="hero-title">AI Wealth Blueprint — 365-Day Roadmap to ₹1 Crore</h1>
+        <p class="hero-sub">Daily tasks, prompts, templates and automation blueprints — everything to start & scale fast.</p>
+
+        <div class="price-row">
+          <div class="price-badge">Intro Price <span class="price">₹39</span></div>
+        </div>
+
+        <div class="cta-row">
+          <button id="buyBtn" class="btn primary large-cta">Buy Now — ₹39</button>
+          <button id="previewBtn" class="btn ghost">Preview Sample</button>
+        </div>
+
+        <div id="features" class="features">
+          <div class="feature">
+            <h4>Daily Roadmap</h4>
+            <p>365 actionable tasks — one clear task per day.</p>
+          </div>
+          <div class="feature">
+            <h4>Prompts & Templates</h4>
+            <p>ChatGPT prompts, email sequences & ad swipe files.</p>
+          </div>
+          <div class="feature">
+            <h4>Automation Blueprints</h4>
+            <p>Email funnels, ad scripts, n8n/Zapier examples.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="samples" class="section container">
+      <h2>Sample Videos</h2>
+      <div class="video-list">
+        <div class="video-card">
+          <video controls playsinline preload="metadata" poster="">
+            <source src="" type="video/mp4">
+            Your browser does not support video.
+          </video>
+        </div>
+        <div class="video-card">
+          <video controls playsinline preload="metadata" poster="">
+            <source src="" type="video/mp4">
+            Your browser does not support video.
+          </video>
+        </div>
+      </div>
+      <p class="muted">Replace &lt;source src=""&gt; with your sample video URLs.</p>
+    </section>
+
+    <section id="faq" class="section container">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <button class="faq-q" data-target="a1">Is this an eBook only or includes course materials?</button>
+        <div id="a1" class="faq-a">Primarily an eBook with templates and prompts. Bundles may include extra videos or coaching add-ons.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" data-target="a2">How will I get the bundle?</button>
+        <div id="a2" class="faq-a">After payment you'll be redirected to a thank-you page or receive a download link via email (depending on your setup).</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" data-target="a3">Refund policy?</button>
+        <div id="a3" class="faq-a">7-day money-back guarantee if you're not satisfied (terms apply).</div>
+      </div>
+    </section>
+
+    <div style="height:120px"></div>
+  </main>
+
+  <div class="bottom-bar" id="purchase">
+    <div class="bottom-left">
+      <div class="small">Lifetime access</div>
+      <div class="price">₹39 only</div>
+    </div>
+    <div class="bottom-right">
+      <button id="buyBtnBottom" class="btn primary">Buy Now — ₹39</button>
+    </div>
+  </div>
+
+  <!-- Simple modal preview -->
+  <div id="modal" class="modal hidden" role="dialog" aria-hidden="true">
+    <div class="modal-body">
+      <button id="closeModal" class="modal-close" aria-label="Close">✕</button>
+      <h3>Free Sample</h3>
+      <p>Includes: Introduction, Day 1–30 checklist and 3 ready-to-use ChatGPT prompts.</p>
+      <a href="#purchase" class="btn primary">Get Full Access</a>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+  </html>
